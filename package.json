@@ -1,0 +1,29 @@
+{
+    "name": "localstockserver",
+    "version": "1.0.0",
+    "description": "Encuentra lo que buscas cerca de tí",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon ./src/index.js"
+    },
+    "type": "module",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/miguelgc95/localStockServer.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/miguelgc95/localStockServer/issues"
+    },
+    "homepage": "https://github.com/miguelgc95/localStockServer#readme",
+    "dependencies": {
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "mongoose": "^6.0.7"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.12"
+    }
+}
