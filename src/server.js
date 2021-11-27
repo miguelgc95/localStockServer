@@ -1,6 +1,5 @@
 import express from 'express';
 
-import config from './config/index.js';
 //import { authMiddleware, errorMiddleware } from './middlewares/index.js';
 
 import { userRouter, businessUserRouter, itemRouter } from './routes/index.js';
